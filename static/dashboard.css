@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+.chart-container {
+    width: 80%;
+    height: 470px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.chart {
+    width: 100%;
+    height: 400px;
+}
+#barchart {
+    margin-top: 20px;
+}
+#doughnutchart {
+    margin-top: -20px;
+}
+#piechart {
+    margin-top: -20px;
+}
+#linechart {
+    margin-top: 20px;
+}
+#horizontalbarchart {
+    margin-top: 20px;
+}
+#stackedBarChart {
+    margin-top: 20px;
+}
+.card {
+    background-color:bisque;
+    border-radius: none;
+    max-width: 300px;
+}
+.cards-kpi {
+    margin-top: 20px;
+}
+
+/* Custom styles for the navbar */
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+}
+
+.navbar .navbar-brand {
+    color: #fff; /* Text color of the title */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center; /* Center the title */
+    width: 100%; /* Make sure the title takes full width */
+}
+
+.navbar-nav {
+    width: 100%; /* Ensure the nav items take full width */
+    justify-content: center; /* Center the title horizontally */
+}
+
+.navbar-nav .nav-item {
+    display: none; /* Hide any nav items */
+}
+.filter-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container .form-control {
+    width: auto;
+    display: inline-block;
+}
+
+.filter-container .btn {
+    margin-left: 10px;
+}
